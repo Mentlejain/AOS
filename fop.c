@@ -128,7 +128,7 @@ int main(int argc,char* argv[])
 					printf("<offset>{int} Offset by which the cursor is placed\n");
 					printf("<whence>{s,e} Location to seek from\n");
 					printf("<bytes>{int} bytes to read\n");
-					printf("To read from a file/pipe")
+					printf("To read from a file/pipe");
 				break;
 				case 'w':
 					printf("<wmode>{w,wo,ww,wow} <filename> [...]\n");
@@ -139,7 +139,7 @@ int main(int argc,char* argv[])
 					printf("<filename> Valid file name/path\n");
 					printf("<offset>{int} Offset by which the cursor is placed\n");
 					printf("<whence>{s,e} Location to seek from\n");
-					printf("To write data into a file/pipe\n")
+					printf("To write data into a file/pipe\n");
 					break;
 				case 'i':
 					printf("i <filename>\n");
