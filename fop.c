@@ -112,7 +112,7 @@ int main(int argc,char* argv[])
 					printf("<filename> Valid file name/path\n");
 					printf("[permission] (optional) file access permissions\n");
 					printf("[overwrite]{t,true} (optional) Overwrite existing file \n");
-					printf("To Create a file\n", );
+					printf("To Create a file\n");
 
 					break;
 				case 'r':
